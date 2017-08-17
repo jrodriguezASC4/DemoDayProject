@@ -26,7 +26,7 @@ jQuery(document).ready($ => {
           // Right PIN!
           $("#fields .numberfield").addClass("right");
           $("#numbers").addClass("hide");
-          $("#breadsticks p").html("<b>Good eets!</b><br>Restart at the top, fam");
+          $("#breadsticks p").html("<b>00ps</b><br>code machine broke");
 
         } else {
           // Wrong PIN!
