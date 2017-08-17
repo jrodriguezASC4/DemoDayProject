@@ -25,6 +25,8 @@
         <!--JS file-->
         <script src="./profile/make.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
       
@@ -54,7 +56,30 @@
                     
                                 </nav>
 
-        <div id="basic"><h1> Profile </h1> </div>
+            
+                                <div id="basic"><h1> Profile </h1> </div>
+                                <img height="250" width="250" src="./images/sample_profile_pic.png">
+                                <h3>Danny Phantom</h3>
+                                <h5>San Diego, California</h5> 
+                            <div class="alerts"> 
+                                <p id="alertsHeading">Alerts</p>
+                                <input type="checkbox" name="bank" size="20" id="bankerf"> Bank of America - Checking + $286.74<br>
+                                <input type="checkbox" name="Payment">  Credit - August 18.2017 ($37.84)<br>
+                                <button type="button" class="calendar" onclick="window.open('calendar.html', '_self')">Calendar</button>
+                            </div>
+                            <div id="currentStat">
+                               </div class="first" >
+                                    <p id="first" class="checking">  $375.23  <br/> Saving </p>
+                               </div>
+                               </div class="second">
+                                    <p id="second" class="checking"> $286.74 <br/> Checking </p>
+                               </div>
+                               </div class="third">
+                                    <p id="third" class="checking"> - $147.02 <br/>
+                                    Pending</p>
+                               </div>
+
+        <!-- <div id="basic"><h1> Profile </h1> </div>
             <img height="250" width="250" src="./images/sample_profile_pic.png">
             <h3>firstName lastName</h3>
             <h5>City, State</h5> 
@@ -79,7 +104,7 @@
                 <p id="third" class="checking">$money <br/>
                 type</p>
            </div>
-        </div>
+        </div> -->
 
          <button type="button" class="paymentButton" style="float: bottom" onclick="window.open('personalAdvice.html', '_self')">Personal Advice</button> 
     

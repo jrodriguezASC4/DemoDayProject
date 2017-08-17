@@ -49,13 +49,16 @@ img{
     font-size: 20px;
     border-right:  5px solid #3f4c6b;
     padding: 0px 15px 10px 15px;
+    color: green;
 }
 #second{
     font-size: 20px;
     border-right:  5px solid #3f4c6b;
     padding: 0px 15px 10px 15px;
+    color: green;
 }
 #third{
+    color: red;
     font-size: 20px;
     padding: 10px 15px 0px 15px;
 }
