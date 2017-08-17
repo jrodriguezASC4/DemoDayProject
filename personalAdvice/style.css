@@ -9,6 +9,7 @@
 /* back button for personal advice*/
 #limit {
     transform: translate(0px, -12px);
+
 }
 .money{
     text-align: right;
@@ -60,7 +61,9 @@
         -ms-user-select: none;
         user-select: none;
        }
-
+li{
+    font-size: 15px;
+}
 input[type=checkbox]
 {
   /* Double-sized Checkboxes */
