@@ -27,32 +27,10 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js'></script>
 
 
-        <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="moneyTransfer/cssMenu/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="moneyTransfer/cssMenu/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-
     </head>
 
 <body>
-
-        <nav class="light-blue lighten-1" role="navigation">
-                
-                
-                                <ul id="nav-mobile" class="side-nav">
-                                  <!-- <li><a href="account.html">Profile</a></li>  -->
-                                  <li><a href="dashboard.html">Dashboard</a></li>
-                                  <li><a href="transaction.html">Transaction</a></li>
-                                  <!-- <li><a href="moneyTransfer.html">Money Transfer</a></li> -->
-                                  <li><a href="#">Settings</a></li>
-                                
-                                  
-                                </ul>
-                                
-                                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-                
-                            </nav>
+        <div class="button big-btn" onclick="window.open('profile.html', '_self')">Back</div>
 
   <div id="basic"><h1> Dashboard </h1> </div>
 
@@ -67,7 +45,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["Clothes", "Food", "Books", "College Bill", "Others"],
         datasets: [{
-            label: 'Best Choise of the Month',
+            label: 'Best Choice of the Month',
             data: [12, 19, 7, 14, 5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
