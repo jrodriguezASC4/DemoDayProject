@@ -1,0 +1,92 @@
+<html>
+    <head>  
+        <title>Phantom - Profile</title>
+
+
+         <!--icon-->
+        <link rel="icon" href="https://www.shareicon.net/data/128x128/2016/04/04/744742_spooky_512x512.png">
+
+        <!--   F O N T   -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        
+        <!-- Custom styles for this template -->
+        <link href="./profile/style.css" rel="stylesheet">
+
+        <!--bootstrap-->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!--JS file-->
+        <script src="./profile/make.js"></script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="profile/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="profile/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+
+    </head>
+    <body>
+            <nav class="light-blue lighten-1" role="navigation">
+                    
+                    
+                                    <ul id="nav-mobile" class="side-nav">
+                                      <!-- <li><a href="account.html">Profile</a></li>  -->
+                                      <li><a href="dashboard.html">Dashboard</a></li>
+                                      <li><a href="transaction.html">Transaction</a></li>
+                                      <li><a href="moneyTransfer.html">Money Transfer</a></li>
+                                      <li><a href="calendar.html">Calendar</a></li>
+                                      <li><a href="#">Settings</a></li>
+                                    
+                                      
+                                    </ul>
+                                    
+                                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                    
+                                </nav>
+
+        <div id="basic"><h1> Profile </h1> </div>
+            <img height="250" width="250" src="./images/sample_profile_pic.png">
+            <h3>firstName lastName</h3>
+            <h5>City, State</h5> 
+
+        <div class="alerts"> 
+            <p id="alertsHeading">Alerts</p>
+            <input type="checkbox" name="bank" size="20"> Bank - typeOfAccount + money<br>
+            <input type="checkbox" name="Payment">  Payment - timeOfPaymentDue<br>
+            <button type="button" class="calendar">Calendar</button>
+        </div>
+        <div id="currentStat">
+           </div class="first" >
+                <p id="first" class="checking">  $money  <br/> type </p>
+                
+           </div>
+
+           </div class="second">
+                <p id="second" class="checking">$money <br/> type </p>
+           </div>
+
+           </div class="third">
+                <p id="third" class="checking">$money <br/>
+                type</p>
+           </div>
+        </div>
+
+         <button type="button" class="paymentButton" style="float: bottom">Personal Advice</button> 
+    
+     <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="profile/js/materialize.js"></script>
+  <script src="profile/js/init.js"></script>
+
+        </body>
+</html>

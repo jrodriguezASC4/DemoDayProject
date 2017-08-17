@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Phantom - Dashboard</title>
+
+    <!--   F O N T   -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+    <link rel="stylesheet" href="./dashboard/style.css">  
+</head>
+
+<body>
+
+  <div id="basic"><h1> Dashboard </h1> </div>
+
+   <!-- <img src="https://www.shareicon.net/data/2015/08/31/93855_home_512x512.png" alt="Menu" style="width:100px;height:100px;">  -->
+    <svg id="svg" viewBox="0 0 600 600">
+  </svg> 
+
+  <div id="numberline">$</div>
+        <div  class="colorCode">
+          
+            <div class="check">
+            <p id="citi"> <img width="30px" height="10px" src="http://logok.org/wp-content/uploads/2014/04/Citi-logo-880x660.png">Citi Bank<br>
+              Current balance: USD</p>  
+              <p id="currentbal"></p> 
+            </div>
+            <div class="check-indented">
+            <p id="BankOfAmerica">  Checkings:  </p>
+            <p id="checkings"></p> 
+          </div>
+            <div class="check-indented">
+            <p id="BankOfAmerica">  Savings:  </p>
+          <p id="savings"></p>   
+          </div>
+            <div class="check-indented">
+            <p id="BankOfAmerica">  Credit:  </p>
+              <p id="credit"></p>
+          </div> 
+        </div>
+
+        
+        
+
+
+<!-- <button id="draw">Draw</button> -->
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js'></script>
+
+    <script src="./dashboard/make.js"></script>
+  
+
+</body>
+</html>

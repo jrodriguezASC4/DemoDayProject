@@ -1,0 +1,64 @@
+/* back button for personal advice*/
+#limit {
+    transform: translate(0px, -12px);
+}
+.money{
+    text-align: right;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+#advice{ 
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.button {
+  text-align: center;
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        margin:10px
+    }
+    
+    .small-btn {
+        width: 50px;
+        height: 25px;
+    }
+    
+    .medium-btn {
+        width: 70px;
+        height: 30px;
+    }
+    
+    .big-btn {
+        width: 90px;
+        height: 40px;
+    }
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 0px 10px; 
+  transform: scale(1.5);
+  margin: 10;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 10;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 90%;
+  display: inline;
+}
