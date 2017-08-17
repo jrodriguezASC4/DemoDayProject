@@ -1,3 +1,11 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    #backButton{ 
+      width: "60";
+      height: "100";
+    }
+
 /* back button for personal advice*/
 #limit {
     transform: translate(0px, -12px);
