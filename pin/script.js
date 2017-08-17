@@ -22,9 +22,11 @@ jQuery(document).ready($ => {
         // Check the PIN
         if (enterCode == pin) {
           // Right PIN!
-          $("#fields .numberfield").addClass("right");
-          $("#numbers").addClass("hide");
-          $("#breadsticks p").html("<input type='button' class='continue' value= 'Continue'>");
+          window.open('profile.html', '_self');
+
+          // $("#fields .numberfield").addClass("right");
+          // $("#numbers").addClass("hide");
+          // $("#breadsticks p").html("<input type='button' class='continue' href='calendar.html' value= 'Continue'>");
 
         } else {
           // Wrong PIN!
